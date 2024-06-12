@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+main {
+    margin-top: 20px;
+}
+
+#new-post {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#new-post h2 {
+    margin-top: 0;
+}
+
+#new-post label {
+    display: block;
+    margin-top: 10px;
+}
+
+#new-post input,
+#new-post textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#new-post button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: #0779e4;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#new-post button:hover {
+    background: #055aa3;
+}
+
+#blog-posts {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.post {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    header {
+        background: #333;
+        color: #fff;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #0779e4 3px solid;
+    }
+    
+    header h1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    
+    main {
+        margin-top: 20px;
+    }
+    
+    #new-post {
+        background: #fff;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    
+    #new-post h2 {
+        margin-top: 0;
+    }
+    
+    #new-post label {
+        display: block;
+        margin-top: 10px;
+    }
+    
+    #new-post input,
+    #new-post textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    #new-post button {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        border: none;
+        background: #0779e4;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    #new-post button:hover {
+        background: #055aa3;
+    }
+    
+    #blog-posts {
+        background: #fff;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    
+    .post {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .post:last-child {
+        border-bottom: none;
+    }
+    
+    .post h3 {
+        margin: 0;
+    }
+    
+    .post p {
+        margin: 5px 0 0;
+    }
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post h3 {
+    margin: 0;
+}
+
+.post p {
+    margin: 5px 0 0;
+}
+
+.post button {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.post button:hover {
+    background: #c0392b;
+}
